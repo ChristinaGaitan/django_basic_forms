@@ -1,6 +1,6 @@
 from django import forms
 
-class FormName(froms.Form):
+class FormName(forms.Form):
   name = forms.CharField()
   email = forms.EmailField()
   text = forms.CharField(widget = forms.Textarea)

@@ -7,4 +7,4 @@ def index(request):
 
 def form_name_view(request):
   form = forms.FormName
-  return render(request, 'basic_app/form_page.html', {'form': form})
+  return render(request, 'basic_app/form.html', {'form': form})
